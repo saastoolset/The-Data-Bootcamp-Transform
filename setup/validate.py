@@ -3,9 +3,11 @@ import os
 import snowflake.connector
 # Gets the version
 
-USER = os.getenv('SNOWSQL_USR')
+# https://docs.snowflake.com/en/user-guide/snowsql-start
+
+USER = os.getenv('SNOWSQL_USER')
 PASSWORD = os.getenv('SNOWSQL_PWD')
-ACCOUNT = os.getenv('SNOWSQL_ACC')
+ACCOUNT = os.getenv('SNOWSQL_ACCOUNT')
 ctx = snowflake.connector.connect(
     user=USER,
     password=PASSWORD,

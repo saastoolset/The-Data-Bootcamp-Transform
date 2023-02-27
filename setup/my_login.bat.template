@@ -1,0 +1,3 @@
+set SNOWSQL_USER=username
+set SNOWSQL_PWD=password
+set SNOWSQL_ACCOUNT=account

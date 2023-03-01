@@ -8,6 +8,7 @@ import snowflake.connector
 USER = os.getenv('SNOWSQL_USER')
 PASSWORD = os.getenv('SNOWSQL_PWD')
 ACCOUNT = os.getenv('SNOWSQL_ACCOUNT')
+# print(USER,PASSWORD,ACCOUNT)
 ctx = snowflake.connector.connect(
     user=USER,
     password=PASSWORD,

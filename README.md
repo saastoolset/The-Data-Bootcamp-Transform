@@ -5,6 +5,7 @@
   - $ edit setup/env/my.bat
   
   ```
+  $ copy *.csv c:\temp
   $ ./setup/env/my.bat
   $ SNOWSQL –f setup\load_data.sql
   ```

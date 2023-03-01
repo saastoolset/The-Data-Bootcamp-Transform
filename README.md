@@ -1,11 +1,13 @@
 # The-Data-Bootcamp-Transformcd 
 
 - clone repo
-$ cd {repo_directory}
-$ edit setup/env/my.bat
-$ ./setup/env/my.bat
-$ SNOWSQL –f setup\load_data.sql
-
+  - $ cd {repo_directory}
+  - $ edit setup/env/my.bat
+  
+  ```
+  $ ./setup/env/my.bat
+  $ SNOWSQL –f setup\load_data.sql
+  ```
 - Show message as below then completed ok
 ```
 +----------+
